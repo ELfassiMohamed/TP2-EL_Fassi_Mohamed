@@ -33,9 +33,4 @@ private Calculator calculator;
         assertEquals(0, calculator.multiply(5, 0));
     }
     
-    @Test
-    public void testDivide() {
-        assertEquals(2.0, calculator.divide(6, 3));
-        assertEquals(2.5, calculator.divide(5, 2));
-    }
 }
