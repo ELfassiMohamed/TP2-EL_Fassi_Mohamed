@@ -1,11 +1,11 @@
 // Jenkinsfile
 
 pipeline {
-    // Replace 'Maven_3.8.6' with the name you configured for Maven in Step 1.
+   
     agent any
 
     tools {
-        maven 'Maven_3.8.6' 
+        maven 'Maven_java' 
     }
 
     stages {
